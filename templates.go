@@ -9,7 +9,7 @@ const layout = `<!DOCTYPE html>
 	</head>
 	<body>
 	  <section class="container">
-			{{template "content"}}
+			{{template "content" .}}
 		</section>
     <footer class="footer">
       <div class="content has-text-centered">
